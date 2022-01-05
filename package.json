@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.6.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "homepage": "sass homepage/custom.scss --style compressed > dist/homepage.min.css",
+    "all": "npm-run-all --parallel homepage"
+  }
+}
